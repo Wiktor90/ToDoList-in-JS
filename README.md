@@ -1,2 +1,3 @@
-# ToDoList-in-JS
-ToDo List App using JS functional programming.
+#TODO-List in JavaScript
+Functional programing concept.
+
