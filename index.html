@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>ToDoList in JS</title>
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+ <link href="./style.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>Your To-Do List</header>
+    <h1>Task Number : <span> 0</span></h1>
+
+    <form action="">
+        <input type="text" class="task-input">
+        <button class="todo-btn" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>    
+    </form>
+
+    <div class="search">
+        <input class="filter" placeholder="Search..." type="text" id="2">
+        <button class="filter-btn">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+
+    <div class="container">
+        <ul class="todo-list"></ul>
+    </div>
+
+ <script src="main.js"></script>
+</body>
+
+</html>
